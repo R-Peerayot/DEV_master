@@ -82,7 +82,7 @@ function sendText (sender, text) {
       'Content-Type': 'application/json',
       'Authorization': 'Bearer '+CH_ACCESS_TOKEN+''
     },
-    url: 'https://api.line.me/message/v3/notifier/send',
+    url: 'https://api.line.me/v2/bot/message/push',
     method: 'POST',
     body: data,
     json: true
@@ -108,7 +108,7 @@ function inFo (sender, text) {
       'Content-Type': 'application/json',
       'Authorization': 'Bearer '+CH_ACCESS_TOKEN+''
     },
-    url: 'https://api.line.me/message/v3/notifier/send',
+    url: 'https://api.line.me/v2/bot/message/push',
     method: 'POST',
     body: data,
     json: true
@@ -156,7 +156,7 @@ function ledOn (sender, text) {
       'Content-Type': 'application/json',
       'Authorization': 'Bearer '+CH_ACCESS_TOKEN+''
     },
-    url: 'https://api.line.me/message/v3/notifier/send',
+    url: 'https://api.line.me/v2/bot/message/push',
     method: 'POST',
     body: data,
     json: true
@@ -202,7 +202,7 @@ function ledOff (sender, text) {
       'Content-Type': 'application/json',
       'Authorization': 'Bearer '+CH_ACCESS_TOKEN+''
     },
-    url: 'https://api.line.me/message/v3/notifier/send',
+    url: 'https://api.line.me/v2/bot/message/push',
     method: 'POST',
     body: data,
     json: true

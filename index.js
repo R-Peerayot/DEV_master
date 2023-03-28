@@ -35,7 +35,7 @@ var options = {
 
 app.use(bodyParser.json())
 
-app.set('port', (process.env.PORT || 3000)) // from 4000 to 3000
+app.set('port', (process.env.PORT || 4000)) // from 4000 to 3000
 app.use(bodyParser.urlencoded({extended: true}))
 app.use(bodyParser.json())
 

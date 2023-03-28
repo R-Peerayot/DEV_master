@@ -19,7 +19,7 @@ var mqtt_topic = 'Esp8266';
 
 // MQTT Config
 var options = {
-    port: 1883,
+    port: 8883,
     host: 'node02.myqtthub.com',
     clientId: 'Esp8266' + Math.random().toString(16).substr(2, 8),
     username: 'Shadow',
